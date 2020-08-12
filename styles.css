@@ -4,4 +4,67 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ------ */
+/* NAVBAR */
+/* ------ */
+
+.flex-container-navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 21.5px;
+}
+
+.flex-container-navbar * {
+  padding: 19px 7.5px 15px 7.5px;
+}
+
+.nav-link {
+  line-height: 24px;
+  font-size: 13px;
+  color: rgba(0,0,0, 0.87);
+  text-decoration-color: rgba(0,0,0, 0.87);
+  text-decoration-line: none;
+}
+
+.nav-link:hover {
+  opacity: .85;
+  text-decoration: underline;
+}
+
+/* --------- */
+/* SEARCHBAR */
+/* --------- */
+
+.flex-container-search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* --------------- */
+/* ADVANCED SEARCH */
+/* --------------- */
+
+.advanced-navbar {
+  background: #f1f1f1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-logo {
+  padding: 15px 0px 10px 15px;
+}
+
+.nav-image-container, .nav-image-container * {
+  padding: 0px;
+  height: 33px;
+  width: 92px;
+}
+
+.advanced-navbar-image {
+  max-width:100%;
+  height:auto;
 }
