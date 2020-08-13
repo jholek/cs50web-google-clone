@@ -17,14 +17,18 @@
         </div>
     </nav>
     <section>
-        <div class='search-logo'>
-            <img src="googlelogo_cs50.png" alt="Google Logo">
+        <div>
+            <img class='search-logo' src="googlelogo_cs50.png" alt="Google Logo">
         </div>
-        <div class='flex-container-search'>
+        <div>
             <form action="https://google.com/search">
-                <input type="text" name="q">
-                <button type="submit" value="Google Search">Google Search</button>
-                <button type="submit" name='btnI' value="1">I'm Feeling Lucky</button>
+                <div class='search-bar'>
+                    <input type="text" name="q" autofocus>
+                </div>
+                <div class='flex-container-search-buttons'>
+                    <button type="submit" value="Google Search">Google Search</button>
+                    <button type="submit" name='btnI' value="1">I'm Feeling Lucky</button>
+                </div>
             </form>
         </div>
     </section>
