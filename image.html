@@ -1,28 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="stylesheet" href="./styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <link rel="stylesheet" href="./styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel='icon' href='favicon.ico' type='image/x-icon'/ >
     <title>Image Search</title>
-</head>
-<body>
+  </head>
+  <body>
     <nav>
-        <div class='flex-container-navbar'>
-            <a class='nav-link' href='index.html'>Back</a>
-        </div>
+      <div class="flex-container-navbar">
+        <a class="nav-link" href="index.html">Back</a>
+      </div>
     </nav>
+
     <section>
-        <div class='flex-container-body'>
-            <div class='search-logo'>
-                <img src="googlelogo_cs50.png" alt="Google Logo">
-            </div>
-            <form action="https://images.google.com/images">
-                <input type="text" name="q" autofocus>
-                <button type="submit" value="Google Image Search">Google Image Search</button>
-            </form>
-        </div>
+      <div>
+        <img class="search-logo" src="googlelogo_cs50.png" alt="Google Logo" />
+      </div>
+      <div>
+        <form action="https://google.com/search">
+          <div class="search-bar">
+            <img class="search-icon" src="search-icon.png" alt="Search Icon" />
+            <input type="hidden" name="tbm" value="isch" />
+            <input
+              class="search-text"
+              type="text"
+              name="q"
+              autofocus
+              autocorrect="off"
+              autocomplete="off"
+              autocapitalize="off"
+            />
+          </div>
+        </form>
+      </div>
     </section>
-</body>
+  </body>
 </html>
