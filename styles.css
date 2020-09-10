@@ -118,6 +118,17 @@ h1 {
   margin: 0 17px;
 }
 
+.image-search-button {
+  background: transparent;
+  border: none;
+  outline: none;
+  margin: 0 17px;
+}
+
+.image-search-button:hover {
+  cursor: pointer;
+}
+
 .search-text {
   border: none;
   outline: none;
@@ -125,7 +136,7 @@ h1 {
   font: 16px arial, sans-serif;
   line-height: 34px;
   height: 34px;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 
 .google-search-button:hover {
